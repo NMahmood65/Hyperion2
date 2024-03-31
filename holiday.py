@@ -17,6 +17,7 @@ city_flight = input("Please give the city you want return flight ticket to from 
 # Check if city given is a valid destination:
 if city_flight not in city_list:
     #print()
+    #print()
     print("We do not fly to the city requested.")
     print("Please type in a city from the following list:")
     print("Kuala_Lumpur, Singapore, Hong_Kong, Shanghai, Tokyo")
@@ -30,6 +31,7 @@ except ValueError:
     exit()
 try:
     rental_days = int(input("Please give the number of days you wish to hire a car: "))
+    #print()
     #print()
 except ValueError:
     print("Please type in a whole number for the number of days car hire. No characters are allowed.")
